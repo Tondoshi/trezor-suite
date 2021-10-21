@@ -15,7 +15,7 @@ Browser (User Agent), System, Suite version, session id shared with analytics
 ### Extra data:
 
 - Enabled-coins e.g.: `[btc, ltc, eth, xrp, doge]`
-- Wallet discovery e.g.: 
+- Wallet discovery e.g.:
 ```
 [
   {
@@ -34,7 +34,7 @@ Browser (User Agent), System, Suite version, session id shared with analytics
 ```
 - Device information (slightly reducted):
 
-```json
+```
 {
   authConfirm: False,
   available: False,
@@ -128,7 +128,7 @@ Browser (User Agent), System, Suite version, session id shared with analytics
 ```
 
 - Action logs:
-```json
+```
 [
   { time: 1634644852099, type: @suite/online-status },
   { action: {}, time: 1634644852104, type: @suite/init },
