@@ -1,6 +1,6 @@
 # Sentry
 
-We use [https://sentry.io/](Sentry.io) for error tracking and performance monitoring for users who enabled anononymous data collection. **We do not communicate with Sentry if users do not wish to be tracked.**
+We use [Sentry.io](https://sentry.io/) for error tracking and performance monitoring for users who enabled anononymous data collection. **We do not communicate with Sentry if users do not wish to be tracked.**
 
 ## What is being tracked
 

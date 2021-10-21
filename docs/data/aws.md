@@ -1,6 +1,6 @@
 # AWS Analytics: Info & Changelog
 
-_For a deep technical info (mainly for developers) please see [aws-technical](aws-technical) document._
+_For a deep technical info (mainly for developers) please see [aws-technical](aws-technical.md) document._
 
 Both web and desktop Suite applications collect anonymous data about how a user interacts with them. Analytics is not mandatory and not all users have it enabled, as it can be opt-out during the onboarding process or later in the settings in the general tab. However, by default, it is enabled in the onboarding process and if the user does not opt-out, the application starts to track his interactions immediately after the onboarding process is completed.
 
