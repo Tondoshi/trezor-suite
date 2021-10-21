@@ -12,6 +12,6 @@ We collect data in the form of HTTP requests to our AWS S3 bucket. We then trans
 
 ## Sentry
 
-To be able to deliver our product in the best shape we use [Sentry.io](https://sentry.io/) for error tracking and performance monitoring. See [Sentry](sentry.md) chapter for more info.
+To be able to deliver our product in the best shape we use [Sentry.io](https://sentry.io/) for error tracking and performance monitoring for those users with enabled analytics. See [Sentry](sentry.md) chapter for more info.
 
 [^1]: By "anonymous" we mean that we do not collect any personal data. We do collect things such as browser version, timestamps etc. which might reduce the anonymity set, however we work with the data only in larger bulk amounts.
