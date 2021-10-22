@@ -84,10 +84,10 @@ analytics.report({
 Breaking change should bump major version. Any other change bumps minor version.
 
 ### Changelog
-Add a record of change to [Changelog](#Changelog) section in this file. Please use a format of previous records.
+Add a record of change to [Changelog](aws.md#Changelog) section. Please use a format of previous records.
 
 ### Notion
-Add event to the analytics overview in the [company Notion](https://www.notion.so/satoshilabs/Data-analytics-938aeb2e289f4ca18f31b1c02ab782cb)
+Add event to the analytics overview in the [company table](https://www.notion.so/satoshilabs/Data-analytics-938aeb2e289f4ca18f31b1c02ab782cb).
 
 ## How does analytics work?
 1. User with enabled analytics interacts with the application
