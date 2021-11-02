@@ -1,21 +1,27 @@
 # Data Analytics
 
-Upon an explicit permission both web and desktop Suite applications collect anonymous[^1] data about how the user interacts with Suite. This document describes what data we collect in greater detail.
+Anonymous[^1] data volunteered by over 250,000 Trezor users directly contributes to improved performance across all the platforms you use Trezor Suite on. 
 
-**Tl;dr:**
-1. We track only upon an explicit permission.
-2. We do not track any particular financial data. We do not know how many Bitcoins you have.
+Participation is easy and completely optional. Enable or disable usage data sharing with one click at any time in Trezor Suite Settings. With full control over what you contribute, you can safely take part in making Bitcoin more secure.   
+
+**TL;DR**
+1. Data is only collected with explicit permission.
+2. Your sensitive personal data is not shared with us.
 3. We use AWS logging for data analytics and Sentry for error tracking.
 
-For users that wish not to be tracked we only track such decision and then no data are shared. This means we do not collect any data, automated Sentry reports (see below) or any other data. Exception is when the user specifially invokes such action via the "Report a bug" button or similar.
+## What data is collected?
 
-## Our own data collection
+When enabled, purely functional data about how the app is used will be collected and analyzed to find defects and inefficiencies. With explicit consent, both web and desktop applications may collect anonymous data such as what features are used, any errors that occur, hardware specifications and overall user traffic.
 
-We collect data in the form of HTTP requests to our AWS S3 bucket. We then transform these data logs into data we further analyze. See [AWS](aws.md) for more detailed info.
+If usage data is disabled only the decision not to share any data is recorded. This means we do not collect any data, automated Sentry reports (see below) or any other data. An exception is when a user specifically chooses to submit feedback or bug reports through Trezor Suite.
 
-## Sentry
+## How is the data processed?
 
-To be able to deliver our product in the best shape we use [Sentry.io](https://sentry.io/) for error tracking and performance monitoring for those users with enabled analytics. See [Sentry](sentry.md) chapter for more info.
+Data is logged in the form of HTTP requests to an AWS S3 bucket. Those data logs are then transformed into sets which can be analyzed to give meaningful information. See [AWS](aws.md) for more detailed info about the particular events which are tracked.
+
+## Error tracking with Sentry
+
+To catch errors and deliver you the best experience with your Trezor, we use [Sentry.io](https://sentry.io/) for error tracking and performance monitoring. This only applies to users with analytics enabled. See our page about [Sentry](sentry.md) for more information on how it works.
 
 
-[^1]: By "anonymous" we mean that we do not collect any personal data. As we use AWS and Sentry they will see your IP address but we neither track nor analyze that in any way.
+[^1]: "Anonymous" means that we do not collect any sensitive personal information. AWS and Sentry will be able to view your IP address but it is not tracked or collected by Trezor.
