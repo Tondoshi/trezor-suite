@@ -1,6 +1,8 @@
 # Sentry
 
-We use [Sentry.io](https://sentry.io/) for error tracking and performance monitoring for users who enabled anononymous data collection. **We do not communicate with Sentry if users do not wish to be tracked.**
+Trezor Suite uses [Sentry.io](https://sentry.io/) to track errors and monitor app performance on the machines of users who have enabled anononymous data collection. This allows us to optimize Trezor Suite and fix compatibility issues across many different usage environments.
+
+**No data is shared with Sentry if users have disabled usage data tracking.**
 
 ## What is being tracked
 
