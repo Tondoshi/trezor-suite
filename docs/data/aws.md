@@ -1,17 +1,29 @@
+
 # AWS Analytics: Info & Changelog
 
-_For a deep technical info (mainly for developers) please see [aws-technical](aws-technical.md) document._
+_For a deeper technical writeup of analytics processes intended for developers, please see [aws-technical](aws-technical.md)._
 
-Both web and desktop Suite applications collect anonymous data about how a user interacts with them. Analytics is not mandatory and not all users have it enabled, as it can be optted out during the onboarding process or later in the settings in the general tab. However, by default, it is enabled in the onboarding process and if the user does not opt out, the application starts to track his interactions immediately after the onboarding process is completed.
+Trezor Suite can be set to collect real-world data to improve the performance of both web and desktop apps. This anonymous data is only shared by users who have usage data tracking enabled. 
+
+Data tracking can be toggled on or off at any time through the Trezor Suite settings menu. 
+
+By default, analytics will be enabled immediately following the onboarding process, and the application will starts to track events and errors. Users are given the option to disable data collection before completing the onboarding.
 
 ## Anonymous data:
 
-Collected data are anonymous. This means that Suite does not track any data leaking information about a device or a user such as:
-- Device id
+Collected data are anonymous. This means that **Suite does not track** personal information and can not be used to view particular users' balances. 
+
+Among the data **not collected** by analytics:
+- Device ids
 - Public keys
 - Particular amounts
 - Transaction ids
-- etc.
+
+When data tracking is enabled, Trezor Suite collects functional information that can be used to directly improve the app, such as:
+
+- Events triggered by a user during a session
+- Hardware, operating system and setup of the connected device
+- Errors encountered during a session
 
 ## Changelog
 
