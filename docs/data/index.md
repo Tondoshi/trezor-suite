@@ -24,4 +24,4 @@ Data are logged in the form of HTTP requests to an AWS S3 bucket. Those data log
 To catch errors quickly and deliver you the best experience with your Trezor, we use [Sentry.io](https://sentry.io/), a tool for error tracking and performance monitoring. Data is only available to Sentry when usage data tracking is enabled. See our page about [Sentry](sentry.md) for more information on how it works.
 
 
-[^1]: "Anonymous" means that we do not collect any sensitive personal information. AWS and Sentry will are able to view IP addresses but they are not tracked or collected by Trezor. Enable Tor when using Trezor Suite to mask your IP address from third parties.
+[^1]: "Anonymous" means that we do not collect any sensitive personal information. AWS and Sentry will are able to view IP addresses but they are not tracked or collected by Trezor. Enable Tor to mask your IP address from third parties when using Trezor Suite.
